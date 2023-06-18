@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-for (int num = 0; num < 10; num++)
+for (int num = 48; num <= 57; num++)
 {
-printf("%d", num);
+putchar(num);
 }
 putchar('\n');
 return (0);
